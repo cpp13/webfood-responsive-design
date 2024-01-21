@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
     <title>WEBFOOD</title>
 </head>
 
 <body>
-    <header>
-        <a href="./index.html">Webfood</a>
+    <header id="main-header">
+        <a href="./index.html" id="page-logo">Webfood</a>
         <ul>
             <nav>
                 <li>Browse Meals</li>
@@ -20,20 +22,24 @@
     </header>
     <main>
         <h1>Browse Our Delicious Meals</h1>
-        <section>
+        <section id="latest-products">
             <ul>
-                <li>
+                <li class="food-items">
                     <article>
                         <img src="./images/risotto.jpg" alt="tiger prawns on risotto">
-                        <p>Risotto with Tiger Prawns</p>
-                        <a href="">Add to Cart</a>
+                        <div class="food-item-content">
+                            <h2>Risotto with Tiger Prawns</h2>
+                            <a href="" class="btn">Add to Cart</a>
+                        </div>
                     </article>
                 </li>
-                <li>
+                <li class="food-items">
                     <article>
-                        <img src="./images/cheeseburgers.jpg" alt="Cheeseburgers with fries">
-                        <p>Cheeseburgers</p>
-                        <a href="">Add to Cart</a>
+                        <img src="./images/cheeseburgers.jpg" alt="burgers with fries">
+                        <div class="food-item-content">
+                            <h2>Cheeseburgers</h2>
+                            <a href="" class="btn">Add to Cart</a>
+                        </div>
                     </article>
                 </li>
 
